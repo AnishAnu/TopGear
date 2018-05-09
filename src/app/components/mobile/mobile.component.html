@@ -1,5 +1,5 @@
-
-<div class="sidenav-div" *ngIf="mobileNavStatusChanged">
+  <div class="navbar-fixed" *ngIf="mobileNavStatusChanged">
+<div class="sidenav-div">
 
 	<div>
 	<div class="nav-link tab-heading" (click)="mobileLink('/actionsheets')" [routerLink]="['actionsheets']" [routerLinkActive] = "['active']">
@@ -35,3 +35,4 @@
 	
 <!-- </div> -->
 <!-- <router-outlet></router-outlet> -->
+</div>

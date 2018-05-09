@@ -1,8 +1,10 @@
 .sidenav-div{
 	background:white;
 	
-	height: 100%;
+	/*height: 100%;*/
 	width: 40%!important;
+	    margin-top: -4%;
+    height: 955%;
 }
 .sidenav{
 	position: relative!important;
@@ -12,6 +14,7 @@
 .nav-item{
 	font-weight: 400;
 	font-size: 15px;
+	padding-top: 20%;
 }
 .fa{
 	color: #ee6e73;

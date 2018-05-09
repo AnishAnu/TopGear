@@ -2,7 +2,8 @@
 	 position:fixed;
    left:0px;
    bottom:0px;
-   height:20px;
+/*   height:20px;*/
    width:100%;
-   background:#999!important;
+   padding-top: 0;
+  /* background:#999!important;*/
 }
