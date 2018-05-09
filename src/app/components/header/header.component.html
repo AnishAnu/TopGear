@@ -1,6 +1,6 @@
 <nav>
   <div class="nav-wrapper">
-    <a href="#" data-target="mobile-demo" class="sidenav-trigger" [routerLink] = '["mobile"]'><i class="fa fa-align-justify"></i></a>
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger" (click)="mobileNav($event)"><i class="fa fa-align-justify"></i></a>
     <a class="navbar-brand learning-heading" href="#" [routerLink] = '["home"]' [routerLinkActive] = "['active']">Learning Portal</a>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
       <li class="nav-item itune-heading">
@@ -15,7 +15,10 @@
     </ul>
   </div>
 </nav>
-
+<div class="hide-on-large-only">
+<app-mobile [mobileNavStatusChanged]="isMobileNavVisible">
+</app-mobile>
+</div>
 <!-- 
 <nav>
   <ul id="mobile-demo" class="side-nav">

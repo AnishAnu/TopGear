@@ -1,9 +1,37 @@
 
-<div style="background: red;width: 20%;">
-<ul class="sidenav" id="mobile-demo">
-  <li><a class="nav-link tab-heading" href="/home" [routerLink]="['actionsheets']" [routerLinkActive] = "['active']">Action Sheets</a></li>
-  <li><a href="badges.html">Components</a></li>
-  <li> <a class="nav-link tab-heading" href="/movies" [routerLink]="['alerts']" [routerLinkActive] = "['active']">Alerts</a></li>
-  <li> <a class="nav-link tab-heading" href="#" [routerLink] = "['badges']" [routerLinkActive] = "['active']">Badges</a></li>
-</ul>
+<div class="sidenav-div" *ngIf="mobileNavStatusChanged">
+
+	<div>
+	<div class="nav-link tab-heading" (click)="mobileLink('/actionsheets')" [routerLink]="['actionsheets']" [routerLinkActive] = "['active']">
+			
+			<p class="nav-item"><i class="fa fa-briefcase"></i> &nbsp; &nbsp;Action Sheets</p></div>
+		</div>
+		<div class="nav-link tab-heading" (click)="mobileLink('/alerts')" [routerLink]="['alerts']" [routerLinkActive] = "['active']">
+		
+			<p class="nav-item"><i class="fa fa-bell"></i> &nbsp; &nbsp;Alerts</p>
+		</div>
+		<div class="nav-link tab-heading" (click)="mobileLink('/badges')" [routerLink]="['badges']" [routerLinkActive] = "['active']">
+	
+			<p class="nav-item"><i class="fa fa-certificate"></i> &nbsp; &nbsp;Badges</p>
+		</div>
 </div>
+
+		<!-- <div class="nav-link tab-heading" (click)="mobileLink('/actionsheets')" [routerLink]="['actionsheets']" [routerLinkActive] = "['active']">
+			<div class="col m5 l5">
+				<p class="mobile-dashboardtxt sidebarItemText">Action Sheets</p>
+			</div>
+		</div>
+		<div class="nav-link tab-heading" (click)="mobileLink('/alerts')" [routerLink]="['alerts']" [routerLinkActive] = "['active']">
+			<div class="col m5 l5">
+				<p style="position: absolute;">Alerts</p>
+			</div>
+		</div>
+		<div class="nav-link tab-heading" (click)="mobileLink('/badges')" [routerLink] = "['badges']" [routerLinkActive] = "['active']">
+			<div class="col m5 l5">
+				<p>Badges</p>
+			</div>
+		</div>
+	</div> -->
+	
+<!-- </div> -->
+<!-- <router-outlet></router-outlet> -->

@@ -1,0 +1,12 @@
+.home-para{
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	color: green;
+}
+.home-background{
+	text-align: center;
+}
+.home-background img{
+	width: 100%;
+}
