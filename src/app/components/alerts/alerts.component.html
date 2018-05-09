@@ -1,0 +1,20 @@
+<div class="btn-showaction-sheet">
+	<button class="waves-effect waves-light btn" (click) =  "openModal()">Show Alerts</button>
+</div>
+
+<div class="row">
+	<div class="col s12 m5 l5">
+		<div id="modal1" class="modal" *ngIf = "modalDisplay">
+			<div class="close-mark"><button (click)="closeModal()">X</button></div>
+			<div class="modal-content">
+				<div>
+					<h5 class="alert-heading">This is an Alert</h5>
+					<p class="alert-para">
+						Good alerts help notify individuals or teams about changes in their systems
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

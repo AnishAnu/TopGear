@@ -1,0 +1,27 @@
+<nav>
+  <div class="nav-wrapper">
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger" [routerLink] = '["mobile"]'><i class="fa fa-align-justify"></i></a>
+    <a class="navbar-brand learning-heading" href="#" [routerLink] = '["home"]' [routerLinkActive] = "['active']">Learning Portal</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li class="nav-item itune-heading">
+        <a class="nav-link tab-heading" href="/home" [routerLink]="['actionsheets']" [routerLinkActive] = "['active']">Action Sheets</a>
+      </li>
+      <li class="nav-item itune-heading">
+        <a class="nav-link tab-heading" href="/movies" [routerLink]="['alerts']" [routerLinkActive] = "['active']">Alerts</a>
+      </li>
+      <li class="nav-item itune-heading">
+        <a class="nav-link tab-heading" href="#" [routerLink] = "['badges']" [routerLinkActive] = "['active']">Badges</a>
+      </li>   
+    </ul>
+  </div>
+</nav>
+
+<!-- 
+<nav>
+  <ul id="mobile-demo" class="side-nav">
+    <li><a href="#!">First Sidebar Link</a></li>
+    <li><a href="#!">Second Sidebar Link</a></li>
+  </ul>
+  <a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="fa fa-align-justify"></i></a>
+</nav>
+ -->

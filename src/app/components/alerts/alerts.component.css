@@ -1,0 +1,18 @@
+.btn-showaction-sheet{
+	text-align: center;
+	margin-top: 5%;
+}
+.modal{
+	display: inline;
+	margin-top: 4%;
+}
+.alert-heading{
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+.alert-para{
+	text-align: justify;
+	font-size: 20px;
+
+}

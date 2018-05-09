@@ -20,7 +20,14 @@
       "styles": [
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+            "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/materialize-css/dist/js/materialize.js"
+      ],
+      "styles": [
+        "../node_modules/materialize-css/dist/css/materialize.css",
+        "styles.css"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
