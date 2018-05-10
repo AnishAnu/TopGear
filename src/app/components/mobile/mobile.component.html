@@ -1,38 +1,19 @@
-  <div class="navbar-fixed" *ngIf="mobileNavStatusChanged">
-<div class="sidenav-div">
+<div class="navbar-fixed" *ngIf="mobileNavStatusChanged">
+	<div class="sidenav-div">
 
-	<div>
-	<div class="nav-link tab-heading" (click)="mobileLink('/actionsheets')" [routerLink]="['actionsheets']" [routerLinkActive] = "['active']">
-			
-			<p class="nav-item"><i class="fa fa-briefcase"></i> &nbsp; &nbsp;Action Sheets</p></div>
-		</div>
-		<div class="nav-link tab-heading" (click)="mobileLink('/alerts')" [routerLink]="['alerts']" [routerLinkActive] = "['active']">
-		
-			<p class="nav-item"><i class="fa fa-bell"></i> &nbsp; &nbsp;Alerts</p>
-		</div>
-		<div class="nav-link tab-heading" (click)="mobileLink('/badges')" [routerLink]="['badges']" [routerLinkActive] = "['active']">
-	
-			<p class="nav-item"><i class="fa fa-certificate"></i> &nbsp; &nbsp;Badges</p>
-		</div>
-</div>
+		<div>
+			<div class="nav-link tab-heading" (click)="mobileLink('/actionsheets')" [routerLink]="['actionsheets']" [routerLinkActive] = "['active']">
 
-		<!-- <div class="nav-link tab-heading" (click)="mobileLink('/actionsheets')" [routerLink]="['actionsheets']" [routerLinkActive] = "['active']">
-			<div class="col m5 l5">
-				<p class="mobile-dashboardtxt sidebarItemText">Action Sheets</p>
+				<p class="nav-item"><i class="fa fa-briefcase"></i> &nbsp; &nbsp;Action Sheets</p></div>
+			</div>
+			<div class="nav-link tab-heading" (click)="mobileLink('/alerts')" [routerLink]="['alerts']" [routerLinkActive] = "['active']">
+
+				<p class="nav-item"><i class="fa fa-bell"></i> &nbsp; &nbsp;Alerts</p>
+			</div>
+			<div class="nav-link tab-heading" (click)="mobileLink('/badges')" [routerLink]="['badges']" [routerLinkActive] = "['active']">
+
+				<p class="nav-item"><i class="fa fa-certificate"></i> &nbsp; &nbsp;Badges</p>
 			</div>
 		</div>
-		<div class="nav-link tab-heading" (click)="mobileLink('/alerts')" [routerLink]="['alerts']" [routerLinkActive] = "['active']">
-			<div class="col m5 l5">
-				<p style="position: absolute;">Alerts</p>
-			</div>
-		</div>
-		<div class="nav-link tab-heading" (click)="mobileLink('/badges')" [routerLink] = "['badges']" [routerLinkActive] = "['active']">
-			<div class="col m5 l5">
-				<p>Badges</p>
-			</div>
-		</div>
-	</div> -->
-	
-<!-- </div> -->
-<!-- <router-outlet></router-outlet> -->
-</div>
+
+	</div>
